@@ -2,7 +2,7 @@ services:
   pdf-extract:
     build: .
     ports:
-      - "8000:8000"
+      - "9431:8000"
     environment:
       MAX_CONCURRENT_JOBS: "2"
       MAX_FILE_SIZE_MB: "50"
